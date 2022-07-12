@@ -9,13 +9,13 @@ const style = {
 // 複数の要素で成り立つ規模のコンポーネントは、基本メモで囲う
 export const ChildArea = memo((props) => {
   const { open, onClickClose } = props;
-  console.log("チルドレンエリアがレンダリングされた！");
+  // console.log("チルドレンエリアがレンダリングされた！");
 
-  const data = [...Array(2000).keys()];
+  // const data = [...Array(2000).keys()];
 
-  data.forEach(() => {
-    console.log("---");
-  });
+  // data.forEach(() => {
+  //   console.log("---");
+  // });
   return (
     <>
       {open ? (
